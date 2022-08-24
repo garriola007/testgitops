@@ -1,1 +1,11 @@
-.
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: application-menu-cncf
+spec:
+  href: 'https://www.cncf.io/'
+  location: ApplicationMenu
+  text: URL a CNCF
+  applicationMenu:
+    section: Kubernetes Blogs
+    imageURL: https://i.ibb.co/pZ0Lxdb/Logo-Red-Hat-Hat-Color-RGB.png
